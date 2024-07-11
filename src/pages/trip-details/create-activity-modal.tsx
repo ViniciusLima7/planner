@@ -26,7 +26,7 @@ export default function CreateActivityModal({
       occurs_at,
     });
 
-    closeCreateActivityModal();
+    window.document.location.reload();
   }
 
   return (
