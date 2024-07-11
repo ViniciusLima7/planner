@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { api } from "../../lib/axios";
 import { format } from "date-fns";
 
-interface Trip {
+export interface Trip {
   id: string;
   destination: string;
   starts_at: string;
