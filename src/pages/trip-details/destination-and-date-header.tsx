@@ -24,9 +24,9 @@ export default function DestinationAndDateHeader() {
   }, [tripId]);
 
   const displayedDate = trip
-    ? format(trip.starts_at, "d' de 'LLL")
-        .concat(" Até ")
-        .concat(format(trip.ends_at, "d' de 'LLL"))
+    ? format(trip.starts_at, "LLL d'th '")
+        .concat("Until ")
+        .concat(format(trip.ends_at, "LLL d'th'"))
     : null;
   return (
     <div className="px-4 h-16 rounded-xl bg-zinc-900 shadow-shape flex items-center justify-between">

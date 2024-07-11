@@ -121,14 +121,15 @@ function CreateTripPage() {
         </div>
 
         <p className="text-sm  text-zinc-50">
-          Ao planejar sua viagem pela plann.er você automaticamente concorda{" "}
-          <br /> com nossos
+          By planning your trip through plann.er ou automatically agree to
+          <br />
+          to our{" "}
           <a className="text-zinc-300 underline" href="">
-            termos de uso
+            terms of use{" "}
           </a>
-          e
+          and{" "}
           <a className="text-zinc-300 underline" href="">
-            políticas de privacidade
+            privacy policies.
           </a>
           .
         </p>

@@ -35,9 +35,9 @@ export default function DestinationAndDateStep({
     eventStartAndEndDates &&
     eventStartAndEndDates?.from &&
     eventStartAndEndDates?.to
-      ? format(eventStartAndEndDates.from, "d' de 'LLL")
-          .concat(" Até ")
-          .concat(format(eventStartAndEndDates.to, "d' de 'LLL"))
+      ? format(eventStartAndEndDates.from, "LLL d'th '")
+          .concat(" Until ")
+          .concat(format(eventStartAndEndDates.to, "LLL d'th '"))
       : null;
 
   return (
